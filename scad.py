@@ -20,8 +20,8 @@ def make_scad(**kwargs):
         typ = "fast"
         #typ = "manual"
 
-    oomp_mode = "project"
-    #oomp_mode = "oobb"
+    #oomp_mode = "project"
+    oomp_mode = "oobb"
 
     test = False
     #test = True
@@ -31,7 +31,8 @@ def make_scad(**kwargs):
         #default
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = False
     elif typ == "fast":
-        filter = ""; save_type = "none"; navigation = False; overwrite = True; modes = ["3dpr"]; oomp_run = False
+        #add navigation
+        filter = ""; save_type = "none"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = False
         #default
         #filter = ""; save_type = "none"; navigation = False; overwrite = True; modes = ["3dpr"]; oomp_run = False
     elif typ == "manual":
@@ -118,20 +119,83 @@ def make_scad(**kwargs):
         part_default["full_shift"] = [0, 0, 0]
         part_default["full_rotations"] = [0, 0, 0]
         
-        part = copy.deepcopy(part_default)
-        p3 = copy.deepcopy(kwargs)
-        p3["width"] = 3
-        p3["height"] = 3
-        #p3["thickness"] = 6
-        #p3["extra"] = ""
-        part["kwargs"] = p3
-        nam = "base"
-        part["name"] = nam
-        if oomp_mode == "oobb":
-            p3["oomp_size"] = nam
-        if not test:
-            pass
-            #parts.append(part)
+
+        #depths = [3]
+        depths = [3, 6, 9]
+
+        cutout_diameters = range(4, 45)
+        #cutout_diameters = [29]
+        
+        multiples = [1,2,3,4,5]
+
+        spacing_multiples = 5
+        spacing_buffer = 3
+
+        buffers = ["default", "both", "width", "height"]
+
+        plates = []
+        for dep in depths:
+            for dia in cutout_diameters:
+                for mult in multiples:
+                    for buf in buffers:
+                        plate = {}
+                        plate["depth"] = dep                    
+                        plate["radius_cutout"] = dia/2
+                        plate["buffer"] = buf  
+                        plate["diameter_cutout"] = dia
+                        
+                        plate["multiple"] = mult                
+                        
+                        space_vertical = dia + spacing_buffer * 2
+                        hei = 0
+                        for i in range(1,200):
+                            if i * 15 > space_vertical:
+                                hei = i
+                                if "both" in buf or "height" in buf:
+                                    hei += 1
+                                clearance_vertical = hei * 15 - space_vertical
+                                plate["clearance_height"] = clearance_vertical
+                                plate["height"] = hei
+                                break
+
+                        space_horizontal = (dia*mult) + ((mult-1) * spacing_multiples) + spacing_buffer * 2
+                        wid = 0
+                        for i in range(1,200):
+                            if i * 15 > space_horizontal:
+                                wid = i
+                                if "both" in buf or "width" in buf:
+                                    wid += 1
+                                clearance_horizontal = wid * 15 - space_horizontal
+                                plate["clearance_width"] = clearance_horizontal
+                                plate["width"] = wid
+                                break
+                        ex = f"{dia}_diameter_cutout_{mult}_multiple_{buf}_buffer"
+                        plate["extra"] = ex
+                        plates.append(plate)
+                        
+        
+
+        for plate in plates:
+            part = copy.deepcopy(part_default)
+            p3 = copy.deepcopy(kwargs)
+            p3["width"] = plate["width"]
+            p3["height"] = plate["height"]
+            p3["thickness"] = plate["depth"]
+            p3["extra"] = plate["extra"]
+            p3["radius_cutout"] = plate["radius_cutout"]
+            p3["diameter_cutout"] = plate["diameter_cutout"]
+            p3["multiple"] = plate["multiple"]
+            p3["clearance_height"] = plate["clearance_height"]
+            p3["clearance_width"] = plate["clearance_width"]
+            p3["buffer"] = plate.get("buffer", "default")
+            part["kwargs"] = p3
+            nam = "plate_cutout"
+            part["name"] = nam
+            if oomp_mode == "oobb":
+                p3["oomp_size"] = nam
+            if not test:
+                pass
+                parts.append(part)
 
 
     kwargs["parts"] = parts
@@ -141,8 +205,9 @@ def make_scad(**kwargs):
     #generate navigation
     if navigation:
         sort = []
-        #sort.append("extra")
-        sort.append("name")
+        sort.append("diameter_cutout")
+        sort.append("multiple")
+        sort.append("buffer")
         sort.append("width")
         sort.append("height")
         sort.append("thickness")
@@ -160,6 +225,14 @@ def get_base(thing, **kwargs):
     pos = kwargs.get("pos", [0, 0, 0])
     extra = kwargs.get("extra", "")
     
+    diameter_cutout = kwargs.get("diameter_cutout", 0)
+    radius_cutout = kwargs.get("radius_cutout", 0)
+    multiple = kwargs.get("multiple", 1)
+    spacing_multiples = kwargs.get("spacing_multiples", 5)
+    spacing_buffer = kwargs.get("spacing_buffer", 3)
+    clearance_height = kwargs.get("clearance_height", 0)
+    clearance_width = kwargs.get("clearance_width", 0)
+
     #add plate
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "positive"
@@ -172,16 +245,47 @@ def get_base(thing, **kwargs):
     oobb_base.append_full(thing,**p3)
     
     #add holes seperate
+    hol = []
+    hol.append("corner")
+    if clearance_height > 16:
+        hol.append("right")
+        hol.append("left")
+    if clearance_width > 16:
+        hol.append("top")
+        hol.append("bottom")
+
+
     p3 = copy.deepcopy(kwargs)
     p3["type"] = "p"
     p3["shape"] = f"oobb_holes"
     p3["both_holes"] = True  
     p3["depth"] = depth
-    p3["holes"] = "perimeter"
-    #p3["m"] = "#"
+    
+    p3["holes"] = hol
+    p3["m"] = "#"
     pos1 = copy.deepcopy(pos)         
     p3["pos"] = pos1
     oobb_base.append_full(thing,**p3)
+
+
+    #add cutout
+    if True:
+        if multiple == 1:
+            start = -0
+        else:
+            start = -((multiple-1) * (diameter_cutout + spacing_multiples)) / 2
+        for i in range(multiple):        
+            p3 = copy.deepcopy(kwargs)
+            p3["type"] = "n"
+            p3["shape"] = f"oobb_hole"        
+            p3["radius"] = radius_cutout                        
+            p3["depth"] = depth
+            pos1 = copy.deepcopy(pos)
+            pos1[0] += start + (i*spacing_multiples) + (i*diameter_cutout)
+            p3["pos"] = pos1
+            p3["m"] = "#"
+            oobb_base.append_full(thing,**p3)
+
 
     if prepare_print:
         #put into a rotation object
