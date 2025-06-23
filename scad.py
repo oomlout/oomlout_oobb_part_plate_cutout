@@ -27,7 +27,8 @@ def make_scad(**kwargs):
     #test = True
 
     if typ == "all":
-        filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = False
+        #overwrite off
+        filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True; test = False
         #default
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = False
     elif typ == "fast":
@@ -124,7 +125,7 @@ def make_scad(**kwargs):
         depths = [3, 6, 9]
 
         cutout_diameters = range(4, 45)
-        #cutout_diameters = [29]
+        cutout_diameters = [14,42]
         
         multiples = [1,2,3,4,5]
 
