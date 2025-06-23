@@ -125,7 +125,7 @@ def make_scad(**kwargs):
         depths = [3, 6, 9]
 
         cutout_diameters = range(4, 45)
-        cutout_diameters = [14,42]
+        #cutout_diameters = [14,42]
         
         multiples = [1,2,3,4,5]
 
