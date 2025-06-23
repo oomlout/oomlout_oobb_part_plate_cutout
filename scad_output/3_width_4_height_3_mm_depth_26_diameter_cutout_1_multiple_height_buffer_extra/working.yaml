@@ -34,7 +34,7 @@ kwargs:
   oomp_run: true
   oomp_size: plate_cutout
   oomp_type: part
-  overwrite: true
+  overwrite: false
   radius_cutout: 13.0
   thickness: 3
   typ: all
