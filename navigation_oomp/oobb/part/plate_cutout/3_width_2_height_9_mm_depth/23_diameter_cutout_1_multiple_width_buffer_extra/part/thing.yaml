@@ -172,7 +172,7 @@ thing:
       r: 11.5
       radius: 11.5
       shape: cylinder
-      type: negative
+      type: n
       width: 3
     - depth: 9
       extra: 23_diameter_cutout_1_multiple_width_buffer
@@ -182,8 +182,9 @@ thing:
       m: '#'
       pos: *id005
       r: 11.5
+      radius: 11.5
       shape: cylinder
-      type: negative
+      type: n
       width: 3
     - depth: 9
       extra: 23_diameter_cutout_1_multiple_width_buffer
@@ -195,7 +196,7 @@ thing:
       r: 11.5
       radius: 11.5
       shape: cylinder
-      type: negative
+      type: n
       width: 3
   components_objects:
   - buffer: width

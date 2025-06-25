@@ -1360,7 +1360,7 @@ thing:
       r: 2.0
       radius: 2.0
       shape: cylinder
-      type: negative
+      type: n
       width: 2
     - depth: 6
       extra: 4_diameter_cutout_1_multiple_both_buffer
@@ -1370,8 +1370,9 @@ thing:
       m: '#'
       pos: *id049
       r: 2.0
+      radius: 2.0
       shape: cylinder
-      type: negative
+      type: n
       width: 2
     - depth: 6
       extra: 4_diameter_cutout_1_multiple_both_buffer
@@ -1383,7 +1384,7 @@ thing:
       r: 2.0
       radius: 2.0
       shape: cylinder
-      type: negative
+      type: n
       width: 2
   components_objects:
   - buffer: both

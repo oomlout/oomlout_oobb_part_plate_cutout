@@ -2116,7 +2116,7 @@ thing:
       r: 3.5
       radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 9
       extra: 7_diameter_cutout_3_multiple_both_buffer
@@ -2126,8 +2126,9 @@ thing:
       m: '#'
       pos: *id077
       r: 3.5
+      radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 9
       extra: 7_diameter_cutout_3_multiple_both_buffer
@@ -2139,7 +2140,7 @@ thing:
       r: 3.5
       radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
   - - depth: 9
       extra: 7_diameter_cutout_3_multiple_both_buffer
@@ -2154,7 +2155,7 @@ thing:
       r: 3.5
       radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 9
       extra: 7_diameter_cutout_3_multiple_both_buffer
@@ -2164,8 +2165,9 @@ thing:
       m: '#'
       pos: *id078
       r: 3.5
+      radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 9
       extra: 7_diameter_cutout_3_multiple_both_buffer
@@ -2177,7 +2179,7 @@ thing:
       r: 3.5
       radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
   - - depth: 9
       extra: 7_diameter_cutout_3_multiple_both_buffer
@@ -2192,7 +2194,7 @@ thing:
       r: 3.5
       radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 9
       extra: 7_diameter_cutout_3_multiple_both_buffer
@@ -2202,8 +2204,9 @@ thing:
       m: '#'
       pos: *id079
       r: 3.5
+      radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 9
       extra: 7_diameter_cutout_3_multiple_both_buffer
@@ -2215,7 +2218,7 @@ thing:
       r: 3.5
       radius: 3.5
       shape: cylinder
-      type: negative
+      type: n
       width: 4
   components_objects:
   - buffer: both

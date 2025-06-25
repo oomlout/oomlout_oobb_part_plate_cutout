@@ -1522,7 +1522,7 @@ thing:
       r: 22.0
       radius: 22.0
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 9
       extra: 44_diameter_cutout_1_multiple_height_buffer
@@ -1532,8 +1532,9 @@ thing:
       m: '#'
       pos: *id055
       r: 22.0
+      radius: 22.0
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 9
       extra: 44_diameter_cutout_1_multiple_height_buffer
@@ -1545,7 +1546,7 @@ thing:
       r: 22.0
       radius: 22.0
       shape: cylinder
-      type: negative
+      type: n
       width: 4
   components_objects:
   - buffer: height
