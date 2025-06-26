@@ -28,7 +28,7 @@ def make_scad(**kwargs):
 
     if typ == "all":
         #overwrite off
-        filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr"]; oomp_run = True; test = False
+        filter = ""; save_type = "all"; navigation = True; overwrite = False; modes = ["3dpr","laser"]; oomp_run = True; test = False
         #default
         #filter = ""; save_type = "all"; navigation = True; overwrite = True; modes = ["3dpr"]; oomp_run = True; test = False
     elif typ == "fast":
