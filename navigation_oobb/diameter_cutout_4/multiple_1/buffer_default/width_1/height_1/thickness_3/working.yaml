@@ -22,6 +22,7 @@ kwargs:
   height: 1
   modes:
   - 3dpr
+  - laser
   multiple: 1
   navigation: true
   oomp_classification: oobb
