@@ -171,8 +171,9 @@ thing:
       - 0
       - 0
       r: 17.0
+      radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 34_diameter_cutout_3_multiple_default_buffer
@@ -184,7 +185,7 @@ thing:
       r: 17.0
       radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 34_diameter_cutout_3_multiple_default_buffer
@@ -196,7 +197,7 @@ thing:
       r: 17.0
       radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   - - depth: 3
       extra: 34_diameter_cutout_3_multiple_default_buffer
@@ -209,8 +210,9 @@ thing:
       - 0
       - 0
       r: 17.0
+      radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 34_diameter_cutout_3_multiple_default_buffer
@@ -222,7 +224,7 @@ thing:
       r: 17.0
       radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 34_diameter_cutout_3_multiple_default_buffer
@@ -234,7 +236,7 @@ thing:
       r: 17.0
       radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   - - depth: 3
       extra: 34_diameter_cutout_3_multiple_default_buffer
@@ -247,8 +249,9 @@ thing:
       - 0
       - 0
       r: 17.0
+      radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 34_diameter_cutout_3_multiple_default_buffer
@@ -260,7 +263,7 @@ thing:
       r: 17.0
       radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 34_diameter_cutout_3_multiple_default_buffer
@@ -272,7 +275,7 @@ thing:
       r: 17.0
       radius: 17.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   components_objects:
   - buffer: default

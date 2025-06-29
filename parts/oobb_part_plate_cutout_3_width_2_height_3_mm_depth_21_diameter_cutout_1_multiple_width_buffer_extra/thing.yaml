@@ -765,8 +765,9 @@ thing:
       - 0
       - 0
       r: 10.5
+      radius: 10.5
       shape: cylinder
-      type: negative
+      type: n
       width: 3
     - depth: 3
       extra: 21_diameter_cutout_1_multiple_width_buffer
@@ -778,7 +779,7 @@ thing:
       r: 10.5
       radius: 10.5
       shape: cylinder
-      type: negative
+      type: n
       width: 3
     - depth: 3
       extra: 21_diameter_cutout_1_multiple_width_buffer
@@ -790,7 +791,7 @@ thing:
       r: 10.5
       radius: 10.5
       shape: cylinder
-      type: negative
+      type: n
       width: 3
   components_objects:
   - buffer: width

@@ -171,8 +171,9 @@ thing:
       - 0
       - 0
       r: 19.0
+      radius: 19.0
       shape: cylinder
-      type: negative
+      type: n
       width: 3
     - depth: 3
       extra: 38_diameter_cutout_1_multiple_height_buffer
@@ -184,7 +185,7 @@ thing:
       r: 19.0
       radius: 19.0
       shape: cylinder
-      type: negative
+      type: n
       width: 3
     - depth: 3
       extra: 38_diameter_cutout_1_multiple_height_buffer
@@ -196,7 +197,7 @@ thing:
       r: 19.0
       radius: 19.0
       shape: cylinder
-      type: negative
+      type: n
       width: 3
   components_objects:
   - buffer: height

@@ -2871,8 +2871,9 @@ thing:
       - 0
       - 0
       r: 14.0
+      radius: 14.0
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 3
       extra: 28_diameter_cutout_1_multiple_both_buffer
@@ -2884,7 +2885,7 @@ thing:
       r: 14.0
       radius: 14.0
       shape: cylinder
-      type: negative
+      type: n
       width: 4
     - depth: 3
       extra: 28_diameter_cutout_1_multiple_both_buffer
@@ -2896,7 +2897,7 @@ thing:
       r: 14.0
       radius: 14.0
       shape: cylinder
-      type: negative
+      type: n
       width: 4
   components_objects:
   - buffer: both

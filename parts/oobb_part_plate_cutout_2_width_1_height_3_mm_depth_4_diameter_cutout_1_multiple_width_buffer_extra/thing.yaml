@@ -387,8 +387,9 @@ thing:
       - 0
       - 0
       r: 2.0
+      radius: 2.0
       shape: cylinder
-      type: negative
+      type: n
       width: 2
     - depth: 3
       extra: 4_diameter_cutout_1_multiple_width_buffer
@@ -400,7 +401,7 @@ thing:
       r: 2.0
       radius: 2.0
       shape: cylinder
-      type: negative
+      type: n
       width: 2
     - depth: 3
       extra: 4_diameter_cutout_1_multiple_width_buffer
@@ -412,7 +413,7 @@ thing:
       r: 2.0
       radius: 2.0
       shape: cylinder
-      type: negative
+      type: n
       width: 2
   components_objects:
   - buffer: width
