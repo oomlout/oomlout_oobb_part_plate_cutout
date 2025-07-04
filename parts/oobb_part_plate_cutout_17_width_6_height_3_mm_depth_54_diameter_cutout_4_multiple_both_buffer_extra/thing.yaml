@@ -8541,8 +8541,9 @@ thing:
       - 0
       - 0
       r: 27.0
+      radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
     - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8552,8 +8553,9 @@ thing:
       m: '#'
       pos: *id315
       r: 27.0
+      radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
     - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8565,7 +8567,7 @@ thing:
       r: 27.0
       radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
   - - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8578,8 +8580,9 @@ thing:
       - 0
       - 0
       r: 27.0
+      radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
     - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8589,8 +8592,9 @@ thing:
       m: '#'
       pos: *id316
       r: 27.0
+      radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
     - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8602,7 +8606,7 @@ thing:
       r: 27.0
       radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
   - - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8615,8 +8619,9 @@ thing:
       - 0
       - 0
       r: 27.0
+      radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
     - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8626,8 +8631,9 @@ thing:
       m: '#'
       pos: *id317
       r: 27.0
+      radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
     - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8639,7 +8645,7 @@ thing:
       r: 27.0
       radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
   - - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8652,8 +8658,9 @@ thing:
       - 0
       - 0
       r: 27.0
+      radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
     - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8663,8 +8670,9 @@ thing:
       m: '#'
       pos: *id318
       r: 27.0
+      radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
     - depth: 3
       extra: 54_diameter_cutout_4_multiple_both_buffer
@@ -8676,7 +8684,7 @@ thing:
       r: 27.0
       radius: 27.0
       shape: cylinder
-      type: negative
+      type: n
       width: 17
   components_objects:
   - buffer: both

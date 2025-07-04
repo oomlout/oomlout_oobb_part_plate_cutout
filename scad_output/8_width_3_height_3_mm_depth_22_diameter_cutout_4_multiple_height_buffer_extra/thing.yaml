@@ -3033,8 +3033,9 @@ thing:
       - 0
       - 0
       r: 11.0
+      radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3046,7 +3047,7 @@ thing:
       r: 11.0
       radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3058,7 +3059,7 @@ thing:
       r: 11.0
       radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   - - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3071,8 +3072,9 @@ thing:
       - 0
       - 0
       r: 11.0
+      radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3084,7 +3086,7 @@ thing:
       r: 11.0
       radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3096,7 +3098,7 @@ thing:
       r: 11.0
       radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   - - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3109,8 +3111,9 @@ thing:
       - 0
       - 0
       r: 11.0
+      radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3122,7 +3125,7 @@ thing:
       r: 11.0
       radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3134,7 +3137,7 @@ thing:
       r: 11.0
       radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   - - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3147,8 +3150,9 @@ thing:
       - 0
       - 0
       r: 11.0
+      radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3160,7 +3164,7 @@ thing:
       r: 11.0
       radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 22_diameter_cutout_4_multiple_height_buffer
@@ -3172,7 +3176,7 @@ thing:
       r: 11.0
       radius: 11.0
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   components_objects:
   - buffer: height

@@ -4761,8 +4761,9 @@ thing:
       - 0
       - 0
       r: 20.5
+      radius: 20.5
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 41_diameter_cutout_2_multiple_both_buffer
@@ -4774,7 +4775,7 @@ thing:
       r: 20.5
       radius: 20.5
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 41_diameter_cutout_2_multiple_both_buffer
@@ -4786,7 +4787,7 @@ thing:
       r: 20.5
       radius: 20.5
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   - - depth: 3
       extra: 41_diameter_cutout_2_multiple_both_buffer
@@ -4799,8 +4800,9 @@ thing:
       - 0
       - 0
       r: 20.5
+      radius: 20.5
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 41_diameter_cutout_2_multiple_both_buffer
@@ -4812,7 +4814,7 @@ thing:
       r: 20.5
       radius: 20.5
       shape: cylinder
-      type: negative
+      type: n
       width: 8
     - depth: 3
       extra: 41_diameter_cutout_2_multiple_both_buffer
@@ -4824,7 +4826,7 @@ thing:
       r: 20.5
       radius: 20.5
       shape: cylinder
-      type: negative
+      type: n
       width: 8
   components_objects:
   - buffer: both

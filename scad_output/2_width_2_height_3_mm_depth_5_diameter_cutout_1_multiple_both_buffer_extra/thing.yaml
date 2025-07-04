@@ -1359,8 +1359,9 @@ thing:
       - 0
       - 0
       r: 2.5
+      radius: 2.5
       shape: cylinder
-      type: negative
+      type: n
       width: 2
     - depth: 3
       extra: 5_diameter_cutout_1_multiple_both_buffer
@@ -1372,7 +1373,7 @@ thing:
       r: 2.5
       radius: 2.5
       shape: cylinder
-      type: negative
+      type: n
       width: 2
     - depth: 3
       extra: 5_diameter_cutout_1_multiple_both_buffer
@@ -1384,7 +1385,7 @@ thing:
       r: 2.5
       radius: 2.5
       shape: cylinder
-      type: negative
+      type: n
       width: 2
   components_objects:
   - buffer: both

@@ -171,8 +171,9 @@ thing:
       - 0
       - 0
       r: 25.0
+      radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
     - depth: 3
       extra: 50_diameter_cutout_3_multiple_default_buffer
@@ -182,8 +183,9 @@ thing:
       m: '#'
       pos: *id005
       r: 25.0
+      radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
     - depth: 3
       extra: 50_diameter_cutout_3_multiple_default_buffer
@@ -195,7 +197,7 @@ thing:
       r: 25.0
       radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
   - - depth: 3
       extra: 50_diameter_cutout_3_multiple_default_buffer
@@ -208,8 +210,9 @@ thing:
       - 0
       - 0
       r: 25.0
+      radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
     - depth: 3
       extra: 50_diameter_cutout_3_multiple_default_buffer
@@ -219,8 +222,9 @@ thing:
       m: '#'
       pos: *id006
       r: 25.0
+      radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
     - depth: 3
       extra: 50_diameter_cutout_3_multiple_default_buffer
@@ -232,7 +236,7 @@ thing:
       r: 25.0
       radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
   - - depth: 3
       extra: 50_diameter_cutout_3_multiple_default_buffer
@@ -245,8 +249,9 @@ thing:
       - 0
       - 0
       r: 25.0
+      radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
     - depth: 3
       extra: 50_diameter_cutout_3_multiple_default_buffer
@@ -256,8 +261,9 @@ thing:
       m: '#'
       pos: *id007
       r: 25.0
+      radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
     - depth: 3
       extra: 50_diameter_cutout_3_multiple_default_buffer
@@ -269,7 +275,7 @@ thing:
       r: 25.0
       radius: 25.0
       shape: cylinder
-      type: negative
+      type: n
       width: 12
   components_objects:
   - buffer: default

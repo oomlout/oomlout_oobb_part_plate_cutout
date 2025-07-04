@@ -171,8 +171,9 @@ thing:
       - 0
       - 0
       r: 15.0
+      radius: 15.0
       shape: cylinder
-      type: negative
+      type: n
       width: 3
     - depth: 3
       extra: 30_diameter_cutout_1_multiple_default_buffer
@@ -184,7 +185,7 @@ thing:
       r: 15.0
       radius: 15.0
       shape: cylinder
-      type: negative
+      type: n
       width: 3
     - depth: 3
       extra: 30_diameter_cutout_1_multiple_default_buffer
@@ -196,7 +197,7 @@ thing:
       r: 15.0
       radius: 15.0
       shape: cylinder
-      type: negative
+      type: n
       width: 3
   components_objects:
   - buffer: default
