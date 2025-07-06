@@ -5301,8 +5301,9 @@ thing:
       - 0
       - 0
       r: 30.0
+      radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
     - depth: 3
       extra: 60_diameter_cutout_3_multiple_height_buffer
@@ -5312,8 +5313,9 @@ thing:
       m: '#'
       pos: *id195
       r: 30.0
+      radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
     - depth: 3
       extra: 60_diameter_cutout_3_multiple_height_buffer
@@ -5325,7 +5327,7 @@ thing:
       r: 30.0
       radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
   - - depth: 3
       extra: 60_diameter_cutout_3_multiple_height_buffer
@@ -5338,8 +5340,9 @@ thing:
       - 0
       - 0
       r: 30.0
+      radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
     - depth: 3
       extra: 60_diameter_cutout_3_multiple_height_buffer
@@ -5349,8 +5352,9 @@ thing:
       m: '#'
       pos: *id196
       r: 30.0
+      radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
     - depth: 3
       extra: 60_diameter_cutout_3_multiple_height_buffer
@@ -5362,7 +5366,7 @@ thing:
       r: 30.0
       radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
   - - depth: 3
       extra: 60_diameter_cutout_3_multiple_height_buffer
@@ -5375,8 +5379,9 @@ thing:
       - 0
       - 0
       r: 30.0
+      radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
     - depth: 3
       extra: 60_diameter_cutout_3_multiple_height_buffer
@@ -5386,8 +5391,9 @@ thing:
       m: '#'
       pos: *id197
       r: 30.0
+      radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
     - depth: 3
       extra: 60_diameter_cutout_3_multiple_height_buffer
@@ -5399,7 +5405,7 @@ thing:
       r: 30.0
       radius: 30.0
       shape: cylinder
-      type: negative
+      type: n
       width: 14
   components_objects:
   - buffer: height

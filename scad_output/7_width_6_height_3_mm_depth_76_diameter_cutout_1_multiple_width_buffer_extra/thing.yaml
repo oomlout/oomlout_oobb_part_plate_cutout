@@ -2277,8 +2277,9 @@ thing:
       - 0
       - 0
       r: 38.0
+      radius: 38.0
       shape: cylinder
-      type: negative
+      type: n
       width: 7
     - depth: 3
       extra: 76_diameter_cutout_1_multiple_width_buffer
@@ -2288,8 +2289,9 @@ thing:
       m: '#'
       pos: *id083
       r: 38.0
+      radius: 38.0
       shape: cylinder
-      type: negative
+      type: n
       width: 7
     - depth: 3
       extra: 76_diameter_cutout_1_multiple_width_buffer
@@ -2301,7 +2303,7 @@ thing:
       r: 38.0
       radius: 38.0
       shape: cylinder
-      type: negative
+      type: n
       width: 7
   components_objects:
   - buffer: width
