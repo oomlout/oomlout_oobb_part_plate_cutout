@@ -14751,8 +14751,9 @@ thing:
       - 0
       - 0
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14762,8 +14763,9 @@ thing:
       m: '#'
       pos: *id545
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14775,7 +14777,7 @@ thing:
       r: 55.0
       radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
   - - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14788,8 +14790,9 @@ thing:
       - 0
       - 0
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14799,8 +14802,9 @@ thing:
       m: '#'
       pos: *id546
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14812,7 +14816,7 @@ thing:
       r: 55.0
       radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
   - - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14825,8 +14829,9 @@ thing:
       - 0
       - 0
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14836,8 +14841,9 @@ thing:
       m: '#'
       pos: *id547
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14849,7 +14855,7 @@ thing:
       r: 55.0
       radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
   - - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14862,8 +14868,9 @@ thing:
       - 0
       - 0
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14873,8 +14880,9 @@ thing:
       m: '#'
       pos: *id548
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14886,7 +14894,7 @@ thing:
       r: 55.0
       radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
   - - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14899,8 +14907,9 @@ thing:
       - 0
       - 0
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14910,8 +14919,9 @@ thing:
       m: '#'
       pos: *id549
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
     - depth: 3
       extra: 110_diameter_cutout_5_multiple_height_buffer
@@ -14923,7 +14933,7 @@ thing:
       r: 55.0
       radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 39
   components_objects:
   - buffer: height

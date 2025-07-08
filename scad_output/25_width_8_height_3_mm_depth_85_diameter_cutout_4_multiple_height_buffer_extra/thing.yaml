@@ -9459,8 +9459,9 @@ thing:
       - 0
       - 0
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9470,8 +9471,9 @@ thing:
       m: '#'
       pos: *id349
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9483,7 +9485,7 @@ thing:
       r: 42.5
       radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
   - - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9496,8 +9498,9 @@ thing:
       - 0
       - 0
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9507,8 +9510,9 @@ thing:
       m: '#'
       pos: *id350
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9520,7 +9524,7 @@ thing:
       r: 42.5
       radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
   - - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9533,8 +9537,9 @@ thing:
       - 0
       - 0
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9544,8 +9549,9 @@ thing:
       m: '#'
       pos: *id351
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9557,7 +9563,7 @@ thing:
       r: 42.5
       radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
   - - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9570,8 +9576,9 @@ thing:
       - 0
       - 0
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9581,8 +9588,9 @@ thing:
       m: '#'
       pos: *id352
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 85_diameter_cutout_4_multiple_height_buffer
@@ -9594,7 +9602,7 @@ thing:
       r: 42.5
       radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 25
   components_objects:
   - buffer: height

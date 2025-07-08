@@ -2655,8 +2655,9 @@ thing:
       - 0
       - 0
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
     - depth: 3
       extra: 85_diameter_cutout_3_multiple_width_buffer
@@ -2666,8 +2667,9 @@ thing:
       m: '#'
       pos: *id097
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
     - depth: 3
       extra: 85_diameter_cutout_3_multiple_width_buffer
@@ -2679,7 +2681,7 @@ thing:
       r: 42.5
       radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
   - - depth: 3
       extra: 85_diameter_cutout_3_multiple_width_buffer
@@ -2692,8 +2694,9 @@ thing:
       - 0
       - 0
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
     - depth: 3
       extra: 85_diameter_cutout_3_multiple_width_buffer
@@ -2703,8 +2706,9 @@ thing:
       m: '#'
       pos: *id098
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
     - depth: 3
       extra: 85_diameter_cutout_3_multiple_width_buffer
@@ -2716,7 +2720,7 @@ thing:
       r: 42.5
       radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
   - - depth: 3
       extra: 85_diameter_cutout_3_multiple_width_buffer
@@ -2729,8 +2733,9 @@ thing:
       - 0
       - 0
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
     - depth: 3
       extra: 85_diameter_cutout_3_multiple_width_buffer
@@ -2740,8 +2745,9 @@ thing:
       m: '#'
       pos: *id099
       r: 42.5
+      radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
     - depth: 3
       extra: 85_diameter_cutout_3_multiple_width_buffer
@@ -2753,7 +2759,7 @@ thing:
       r: 42.5
       radius: 42.5
       shape: cylinder
-      type: negative
+      type: n
       width: 20
   components_objects:
   - buffer: width

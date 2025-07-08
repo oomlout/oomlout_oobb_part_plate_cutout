@@ -11187,8 +11187,9 @@ thing:
       - 0
       - 0
       r: 47.5
+      radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
     - depth: 3
       extra: 95_diameter_cutout_3_multiple_both_buffer
@@ -11198,8 +11199,9 @@ thing:
       m: '#'
       pos: *id413
       r: 47.5
+      radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
     - depth: 3
       extra: 95_diameter_cutout_3_multiple_both_buffer
@@ -11211,7 +11213,7 @@ thing:
       r: 47.5
       radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
   - - depth: 3
       extra: 95_diameter_cutout_3_multiple_both_buffer
@@ -11224,8 +11226,9 @@ thing:
       - 0
       - 0
       r: 47.5
+      radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
     - depth: 3
       extra: 95_diameter_cutout_3_multiple_both_buffer
@@ -11235,8 +11238,9 @@ thing:
       m: '#'
       pos: *id414
       r: 47.5
+      radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
     - depth: 3
       extra: 95_diameter_cutout_3_multiple_both_buffer
@@ -11248,7 +11252,7 @@ thing:
       r: 47.5
       radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
   - - depth: 3
       extra: 95_diameter_cutout_3_multiple_both_buffer
@@ -11261,8 +11265,9 @@ thing:
       - 0
       - 0
       r: 47.5
+      radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
     - depth: 3
       extra: 95_diameter_cutout_3_multiple_both_buffer
@@ -11272,8 +11277,9 @@ thing:
       m: '#'
       pos: *id415
       r: 47.5
+      radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
     - depth: 3
       extra: 95_diameter_cutout_3_multiple_both_buffer
@@ -11285,7 +11291,7 @@ thing:
       r: 47.5
       radius: 47.5
       shape: cylinder
-      type: negative
+      type: n
       width: 22
   components_objects:
   - buffer: both

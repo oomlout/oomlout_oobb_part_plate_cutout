@@ -9297,8 +9297,9 @@ thing:
       - 0
       - 0
       r: 39.0
+      radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
     - depth: 3
       extra: 78_diameter_cutout_3_multiple_both_buffer
@@ -9308,8 +9309,9 @@ thing:
       m: '#'
       pos: *id343
       r: 39.0
+      radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
     - depth: 3
       extra: 78_diameter_cutout_3_multiple_both_buffer
@@ -9321,7 +9323,7 @@ thing:
       r: 39.0
       radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
   - - depth: 3
       extra: 78_diameter_cutout_3_multiple_both_buffer
@@ -9334,8 +9336,9 @@ thing:
       - 0
       - 0
       r: 39.0
+      radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
     - depth: 3
       extra: 78_diameter_cutout_3_multiple_both_buffer
@@ -9345,8 +9348,9 @@ thing:
       m: '#'
       pos: *id344
       r: 39.0
+      radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
     - depth: 3
       extra: 78_diameter_cutout_3_multiple_both_buffer
@@ -9358,7 +9362,7 @@ thing:
       r: 39.0
       radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
   - - depth: 3
       extra: 78_diameter_cutout_3_multiple_both_buffer
@@ -9371,8 +9375,9 @@ thing:
       - 0
       - 0
       r: 39.0
+      radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
     - depth: 3
       extra: 78_diameter_cutout_3_multiple_both_buffer
@@ -9382,8 +9387,9 @@ thing:
       m: '#'
       pos: *id345
       r: 39.0
+      radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
     - depth: 3
       extra: 78_diameter_cutout_3_multiple_both_buffer
@@ -9395,7 +9401,7 @@ thing:
       r: 39.0
       radius: 39.0
       shape: cylinder
-      type: negative
+      type: n
       width: 18
   components_objects:
   - buffer: both
