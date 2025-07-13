@@ -12699,8 +12699,9 @@ thing:
       - 0
       - 0
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 110_diameter_cutout_3_multiple_both_buffer
@@ -12710,8 +12711,9 @@ thing:
       m: '#'
       pos: *id469
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 110_diameter_cutout_3_multiple_both_buffer
@@ -12723,7 +12725,7 @@ thing:
       r: 55.0
       radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
   - - depth: 3
       extra: 110_diameter_cutout_3_multiple_both_buffer
@@ -12736,8 +12738,9 @@ thing:
       - 0
       - 0
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 110_diameter_cutout_3_multiple_both_buffer
@@ -12747,8 +12750,9 @@ thing:
       m: '#'
       pos: *id470
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 110_diameter_cutout_3_multiple_both_buffer
@@ -12760,7 +12764,7 @@ thing:
       r: 55.0
       radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
   - - depth: 3
       extra: 110_diameter_cutout_3_multiple_both_buffer
@@ -12773,8 +12777,9 @@ thing:
       - 0
       - 0
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 110_diameter_cutout_3_multiple_both_buffer
@@ -12784,8 +12789,9 @@ thing:
       m: '#'
       pos: *id471
       r: 55.0
+      radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
     - depth: 3
       extra: 110_diameter_cutout_3_multiple_both_buffer
@@ -12797,7 +12803,7 @@ thing:
       r: 55.0
       radius: 55.0
       shape: cylinder
-      type: negative
+      type: n
       width: 25
   components_objects:
   - buffer: both

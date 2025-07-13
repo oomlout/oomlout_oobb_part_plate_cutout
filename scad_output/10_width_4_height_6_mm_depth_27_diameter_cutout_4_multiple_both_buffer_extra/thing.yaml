@@ -22,6 +22,7 @@ kwargs:
   height: 4
   modes:
   - 3dpr
+  - laser
   multiple: 4
   navigation: true
   oomp_classification: oobb
@@ -5294,6 +5295,7 @@ thing:
     height: 4
     modes:
     - 3dpr
+    - laser
     multiple: 4
     navigation: true
     oomp_classification: oobb
@@ -5336,6 +5338,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
+    - laser
     multiple: 4
     navigation: true
     oomp_classification: oobb
@@ -5371,6 +5374,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
+    - laser
     multiple: 4
     navigation: true
     oomp_classification: oobb
@@ -5407,6 +5411,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
+    - laser
     multiple: 4
     navigation: true
     oomp_classification: oobb
@@ -5443,6 +5448,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
+    - laser
     multiple: 4
     navigation: true
     oomp_classification: oobb
@@ -5479,6 +5485,7 @@ thing:
     m: '#'
     modes:
     - 3dpr
+    - laser
     multiple: 4
     navigation: true
     oomp_classification: oobb
@@ -5505,12 +5512,12 @@ thing:
     type: n
     width: 10
   components_string:
-  - oobb_plate_shape_positive_type_6_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer
-  - oobb_holes_shape_p_type_6_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_true_both_holes_'corner'_'right'_'left'_'top'_'bottom'_holes
-  - oobb_hole_shape_n_type_6_depth_-48.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_13.5_radius
-  - oobb_hole_shape_n_type_6_depth_-16.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_13.5_radius
-  - oobb_hole_shape_n_type_6_depth_16.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_13.5_radius
-  - oobb_hole_shape_n_type_6_depth_48.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_13.5_radius
+  - oobb_plate_shape_positive_type_6_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer
+  - oobb_holes_shape_p_type_6_depth_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_true_both_holes_'corner'_'right'_'left'_'top'_'bottom'_holes
+  - oobb_hole_shape_n_type_6_depth_-48.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_13.5_radius
+  - oobb_hole_shape_n_type_6_depth_-16.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_13.5_radius
+  - oobb_hole_shape_n_type_6_depth_16.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_13.5_radius
+  - oobb_hole_shape_n_type_6_depth_48.0_0_0_pos_all_typ_all_save_type_true_navigation_false_overwrite_'3dpr'_'laser'_modes_oobb_oomp_mode_true_oomp_run_10_width_4_height_6_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_27_diameter_cutout_4_multiple_both_buffer_extra_13.5_radius_cutout_27_diameter_cutout_4_multiple_27_clearance_height_21_clearance_width_both_buffer_13.5_radius
   description: oomlout oobb part plate cutout plate cutout 10x4x6
   description_extra: 27_diameter_cutout_4_multiple_both_buffer_extra
   description_main: 10_width_4_height_6_mm_depth

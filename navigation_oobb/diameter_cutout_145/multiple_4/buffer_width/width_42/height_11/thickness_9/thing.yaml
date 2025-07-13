@@ -1,0 +1,4551 @@
+classification: oobb
+color: ''
+description_extra: 145_diameter_cutout_4_multiple_width_buffer_extra
+description_main: 42_width_11_height_9_mm_depth
+full_rotations:
+- 0
+- 0
+- 0
+full_shift:
+- 0
+- 0
+- 0
+id: oobb_part_plate_cutout_42_width_11_height_9_mm_depth_145_diameter_cutout_4_multiple_width_buffer_extra
+id_oobb: oobb_part_oomlout_oobb_part_plate_cutout_plate_cutout_42_width_11_height_9_mm_depth_145_diameter_cutout_4_multiple_width_buffer_extra
+kwargs:
+  buffer: width
+  clearance_height: 14
+  clearance_width: 29
+  diameter_cutout: 145
+  extra: 145_diameter_cutout_4_multiple_width_buffer
+  filter: ''
+  height: 11
+  modes:
+  - 3dpr
+  multiple: 4
+  navigation: true
+  oomp_classification: oobb
+  oomp_color: ''
+  oomp_description_extra: 145_diameter_cutout_4_multiple_width_buffer_extra
+  oomp_description_main: 42_width_11_height_9_mm_depth
+  oomp_manufacturer: ''
+  oomp_mode: oobb
+  oomp_part_number: ''
+  oomp_run: false
+  oomp_size: plate_cutout
+  oomp_type: part
+  overwrite: true
+  radius_cutout: 72.5
+  thickness: 9
+  type: oomlout_oobb_part_plate_cutout_plate_cutout
+  width: 42
+manufacturer: ''
+name: plate_cutout
+part_number: ''
+project_name: C:\gh\oomlout_oobb_part_plate_cutout
+size: plate_cutout
+thing:
+  classification: oobb
+  color: ''
+  components:
+  - - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      height: 11
+      pos:
+      - 0
+      - 0
+      - 0
+      shape: rounded_rectangle
+      size:
+      - 629
+      - 164
+      - 9
+      type: positive
+      width: 42
+  - - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id001
+        - -307.5
+        - -75.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id001
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id001
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id002
+        - -307.5
+        - -60.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id002
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id002
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id003
+        - -307.5
+        - -45.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id003
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id003
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id004
+        - -307.5
+        - -30.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id004
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id004
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id005
+        - -307.5
+        - -15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id005
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id005
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id006
+        - -307.5
+        - 0.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id006
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id006
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id007
+        - -307.5
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id007
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id007
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id008
+        - -307.5
+        - 30.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id008
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id008
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id009
+        - -307.5
+        - 45.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id009
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id009
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id010
+        - -307.5
+        - 60.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id010
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id010
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id011
+        - -307.5
+        - 75.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id011
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id011
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id012
+        - 307.5
+        - -75.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id012
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id012
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id013
+        - 307.5
+        - -60.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id013
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id013
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id014
+        - 307.5
+        - -45.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id014
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id014
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id015
+        - 307.5
+        - -30.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id015
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id015
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id016
+        - 307.5
+        - -15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id016
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id016
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id017
+        - 307.5
+        - 0.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id017
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id017
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id018
+        - 307.5
+        - 15.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id018
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id018
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id019
+        - 307.5
+        - 30.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id019
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id019
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id020
+        - 307.5
+        - 45.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id020
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id020
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id021
+        - 307.5
+        - 60.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id021
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id021
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id022
+        - 307.5
+        - 75.0
+        - 0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id022
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id022
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: '#'
+        pos: &id023
+        - -307.5
+        - -75.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: '#'
+        pos: *id023
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: '#'
+        pos: *id023
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: '#'
+        pos: &id024
+        - -307.5
+        - 75.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: '#'
+        pos: *id024
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: '#'
+        pos: *id024
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: '#'
+        pos: &id025
+        - 307.5
+        - -75.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: '#'
+        pos: *id025
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: '#'
+        pos: *id025
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - h: 200
+        inclusion: laser
+        m: '#'
+        pos: &id026
+        - 307.5
+        - 75.0
+        - -100.0
+        r: 3.0
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 3dpr
+        m: '#'
+        pos: *id026
+        r: 3.25
+        shape: cylinder
+        type: negative
+      - h: 200
+        inclusion: 'true'
+        m: '#'
+        pos: *id026
+        r: 3.0
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id027
+        - -307.5
+        - -75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id027
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id027
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id028
+        - -307.5
+        - -67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id028
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id028
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id029
+        - -307.5
+        - -60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id029
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id029
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id030
+        - -307.5
+        - -52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id030
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id030
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id031
+        - -307.5
+        - -45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id031
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id031
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id032
+        - -307.5
+        - -37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id032
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id032
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id033
+        - -307.5
+        - -30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id033
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id033
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id034
+        - -307.5
+        - -22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id034
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id034
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id035
+        - -307.5
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id035
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id035
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id036
+        - -307.5
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id036
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id036
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id037
+        - -307.5
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id037
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id037
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id038
+        - -307.5
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id038
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id038
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id039
+        - -307.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id039
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id039
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id040
+        - -307.5
+        - 22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id040
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id040
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id041
+        - -307.5
+        - 30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id041
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id041
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id042
+        - -307.5
+        - 37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id042
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id042
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id043
+        - -307.5
+        - 45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id043
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id043
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id044
+        - -307.5
+        - 52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id044
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id044
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id045
+        - -307.5
+        - 60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id045
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id045
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id046
+        - -307.5
+        - 67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id046
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id046
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id047
+        - -307.5
+        - 75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id047
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id047
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id048
+        - 307.5
+        - -75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id048
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id048
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id049
+        - 307.5
+        - -67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id049
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id049
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id050
+        - 307.5
+        - -60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id050
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id050
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id051
+        - 307.5
+        - -52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id051
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id051
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id052
+        - 307.5
+        - -45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id052
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id052
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id053
+        - 307.5
+        - -37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id053
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id053
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id054
+        - 307.5
+        - -30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id054
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id054
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id055
+        - 307.5
+        - -22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id055
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id055
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id056
+        - 307.5
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id056
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id056
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id057
+        - 307.5
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id057
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id057
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id058
+        - 307.5
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id058
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id058
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id059
+        - 307.5
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id059
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id059
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id060
+        - 307.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id060
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id060
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id061
+        - 307.5
+        - 22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id061
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id061
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id062
+        - 307.5
+        - 30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id062
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id062
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id063
+        - 307.5
+        - 37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id063
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id063
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id064
+        - 307.5
+        - 45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id064
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id064
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id065
+        - 307.5
+        - 52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id065
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id065
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id066
+        - 307.5
+        - 60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id066
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id066
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id067
+        - 307.5
+        - 67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id067
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id067
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id068
+        - 307.5
+        - 75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id068
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id068
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id069
+        - -307.5
+        - -75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id069
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id069
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id070
+        - -307.5
+        - -67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id070
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id070
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id071
+        - -307.5
+        - -60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id071
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id071
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id072
+        - -307.5
+        - -52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id072
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id072
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id073
+        - -307.5
+        - -45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id073
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id073
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id074
+        - -307.5
+        - -37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id074
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id074
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id075
+        - -307.5
+        - -30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id075
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id075
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id076
+        - -307.5
+        - -22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id076
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id076
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id077
+        - -307.5
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id077
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id077
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id078
+        - -307.5
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id078
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id078
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id079
+        - -307.5
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id079
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id079
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id080
+        - -307.5
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id080
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id080
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id081
+        - -307.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id081
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id081
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id082
+        - -307.5
+        - 22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id082
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id082
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id083
+        - -307.5
+        - 30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id083
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id083
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id084
+        - -307.5
+        - 37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id084
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id084
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id085
+        - -307.5
+        - 45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id085
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id085
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id086
+        - -307.5
+        - 52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id086
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id086
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id087
+        - -307.5
+        - 60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id087
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id087
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id088
+        - -307.5
+        - 67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id088
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id088
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id089
+        - -307.5
+        - 75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id089
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id089
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id090
+        - 307.5
+        - -75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id090
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id090
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id091
+        - 307.5
+        - -67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id091
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id091
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id092
+        - 307.5
+        - -60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id092
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id092
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id093
+        - 307.5
+        - -52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id093
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id093
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id094
+        - 307.5
+        - -45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id094
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id094
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id095
+        - 307.5
+        - -37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id095
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id095
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id096
+        - 307.5
+        - -30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id096
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id096
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id097
+        - 307.5
+        - -22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id097
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id097
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id098
+        - 307.5
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id098
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id098
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id099
+        - 307.5
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id099
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id099
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id100
+        - 307.5
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id100
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id100
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id101
+        - 307.5
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id101
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id101
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id102
+        - 307.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id102
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id102
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id103
+        - 307.5
+        - 22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id103
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id103
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id104
+        - 307.5
+        - 30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id104
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id104
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id105
+        - 307.5
+        - 37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id105
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id105
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id106
+        - 307.5
+        - 45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id106
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id106
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id107
+        - 307.5
+        - 52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id107
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id107
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id108
+        - 307.5
+        - 60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id108
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id108
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id109
+        - 307.5
+        - 67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id109
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id109
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id110
+        - 307.5
+        - 75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id110
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id110
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id111
+        - -307.5
+        - -75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id111
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id111
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id112
+        - -307.5
+        - -67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id112
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id112
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id113
+        - -307.5
+        - -60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id113
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id113
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id114
+        - -307.5
+        - -52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id114
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id114
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id115
+        - -307.5
+        - -45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id115
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id115
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id116
+        - -307.5
+        - -37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id116
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id116
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id117
+        - -307.5
+        - -30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id117
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id117
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id118
+        - -307.5
+        - -22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id118
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id118
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id119
+        - -307.5
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id119
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id119
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id120
+        - -307.5
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id120
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id120
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id121
+        - -307.5
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id121
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id121
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id122
+        - -307.5
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id122
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id122
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id123
+        - -307.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id123
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id123
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id124
+        - -307.5
+        - 22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id124
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id124
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id125
+        - -307.5
+        - 30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id125
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id125
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id126
+        - -307.5
+        - 37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id126
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id126
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id127
+        - -307.5
+        - 45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id127
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id127
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id128
+        - -307.5
+        - 52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id128
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id128
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id129
+        - -307.5
+        - 60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id129
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id129
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id130
+        - -307.5
+        - 67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id130
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id130
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id131
+        - -307.5
+        - 75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id131
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id131
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id132
+        - 307.5
+        - -75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id132
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id132
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id133
+        - 307.5
+        - -67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id133
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id133
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id134
+        - 307.5
+        - -60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id134
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id134
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id135
+        - 307.5
+        - -52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id135
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id135
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id136
+        - 307.5
+        - -45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id136
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id136
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id137
+        - 307.5
+        - -37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id137
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id137
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id138
+        - 307.5
+        - -30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id138
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id138
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id139
+        - 307.5
+        - -22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id139
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id139
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id140
+        - 307.5
+        - -15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id140
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id140
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id141
+        - 307.5
+        - -7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id141
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id141
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id142
+        - 307.5
+        - 0.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id142
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id142
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id143
+        - 307.5
+        - 7.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id143
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id143
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id144
+        - 307.5
+        - 15.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id144
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id144
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id145
+        - 307.5
+        - 22.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id145
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id145
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id146
+        - 307.5
+        - 30.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id146
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id146
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id147
+        - 307.5
+        - 37.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id147
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id147
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id148
+        - 307.5
+        - 45.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id148
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id148
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id149
+        - 307.5
+        - 52.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id149
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id149
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id150
+        - 307.5
+        - 60.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id150
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id150
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id151
+        - 307.5
+        - 67.5
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id151
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id151
+        r: 1.5
+        shape: cylinder
+        type: negative
+    - - depth: 9
+        h: 9
+        inclusion: laser
+        m: '#'
+        pos: &id152
+        - 307.5
+        - 75.0
+        - 0
+        r: 1.5
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 3dpr
+        m: '#'
+        pos: *id152
+        r: 1.8
+        shape: cylinder
+        type: negative
+      - depth: 9
+        h: 9
+        inclusion: 'true'
+        m: '#'
+        pos: *id152
+        r: 1.5
+        shape: cylinder
+        type: negative
+  - - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: laser
+      m: '#'
+      pos: &id153
+      - -225.0
+      - 0
+      - 0
+      r: 72.5
+      radius: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+    - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: 3dpr
+      m: '#'
+      pos: *id153
+      r: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+    - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: 'true'
+      m: '#'
+      pos: *id153
+      r: 72.5
+      radius: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+  - - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: laser
+      m: '#'
+      pos: &id154
+      - -75.0
+      - 0
+      - 0
+      r: 72.5
+      radius: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+    - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: 3dpr
+      m: '#'
+      pos: *id154
+      r: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+    - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: 'true'
+      m: '#'
+      pos: *id154
+      r: 72.5
+      radius: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+  - - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: laser
+      m: '#'
+      pos: &id155
+      - 75.0
+      - 0
+      - 0
+      r: 72.5
+      radius: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+    - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: 3dpr
+      m: '#'
+      pos: *id155
+      r: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+    - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: 'true'
+      m: '#'
+      pos: *id155
+      r: 72.5
+      radius: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+  - - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: laser
+      m: '#'
+      pos: &id156
+      - 225.0
+      - 0
+      - 0
+      r: 72.5
+      radius: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+    - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: 3dpr
+      m: '#'
+      pos: *id156
+      r: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+    - depth: 9
+      extra: 145_diameter_cutout_4_multiple_width_buffer
+      h: 9
+      height: 11
+      inclusion: 'true'
+      m: '#'
+      pos: *id156
+      r: 72.5
+      radius: 72.5
+      shape: cylinder
+      type: negative
+      width: 42
+  components_objects:
+  - buffer: width
+    clearance_height: 14
+    clearance_width: 29
+    depth: 9
+    diameter_cutout: 145
+    extra: 145_diameter_cutout_4_multiple_width_buffer
+    filter: ''
+    height: 11
+    modes:
+    - 3dpr
+    multiple: 4
+    navigation: true
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: plate_cutout
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius_cutout: 72.5
+    save_type: none
+    shape: oobb_plate
+    thickness: 9
+    type: positive
+    width: 42
+  - both_holes: true
+    buffer: width
+    clearance_height: 14
+    clearance_width: 29
+    depth: 9
+    diameter_cutout: 145
+    extra: 145_diameter_cutout_4_multiple_width_buffer
+    filter: ''
+    height: 11
+    holes:
+    - corner
+    - top
+    - bottom
+    m: '#'
+    modes:
+    - 3dpr
+    multiple: 4
+    navigation: true
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: plate_cutout
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 0
+    - 0
+    - 0
+    radius_cutout: 72.5
+    save_type: none
+    shape: oobb_holes
+    thickness: 9
+    type: p
+    width: 42
+  - buffer: width
+    clearance_height: 14
+    clearance_width: 29
+    depth: 9
+    diameter_cutout: 145
+    extra: 145_diameter_cutout_4_multiple_width_buffer
+    filter: ''
+    height: 11
+    m: '#'
+    modes:
+    - 3dpr
+    multiple: 4
+    navigation: true
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: plate_cutout
+    oomp_type: part
+    overwrite: true
+    pos:
+    - -225.0
+    - 0
+    - 0
+    radius: 72.5
+    radius_cutout: 72.5
+    save_type: none
+    shape: oobb_hole
+    thickness: 9
+    type: n
+    width: 42
+  - buffer: width
+    clearance_height: 14
+    clearance_width: 29
+    depth: 9
+    diameter_cutout: 145
+    extra: 145_diameter_cutout_4_multiple_width_buffer
+    filter: ''
+    height: 11
+    m: '#'
+    modes:
+    - 3dpr
+    multiple: 4
+    navigation: true
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: plate_cutout
+    oomp_type: part
+    overwrite: true
+    pos:
+    - -75.0
+    - 0
+    - 0
+    radius: 72.5
+    radius_cutout: 72.5
+    save_type: none
+    shape: oobb_hole
+    thickness: 9
+    type: n
+    width: 42
+  - buffer: width
+    clearance_height: 14
+    clearance_width: 29
+    depth: 9
+    diameter_cutout: 145
+    extra: 145_diameter_cutout_4_multiple_width_buffer
+    filter: ''
+    height: 11
+    m: '#'
+    modes:
+    - 3dpr
+    multiple: 4
+    navigation: true
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: plate_cutout
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 75.0
+    - 0
+    - 0
+    radius: 72.5
+    radius_cutout: 72.5
+    save_type: none
+    shape: oobb_hole
+    thickness: 9
+    type: n
+    width: 42
+  - buffer: width
+    clearance_height: 14
+    clearance_width: 29
+    depth: 9
+    diameter_cutout: 145
+    extra: 145_diameter_cutout_4_multiple_width_buffer
+    filter: ''
+    height: 11
+    m: '#'
+    modes:
+    - 3dpr
+    multiple: 4
+    navigation: true
+    oomp_classification: oobb
+    oomp_color: ''
+    oomp_description_extra: ''
+    oomp_description_main: ''
+    oomp_manufacturer: ''
+    oomp_mode: oobb
+    oomp_part_number: ''
+    oomp_run: false
+    oomp_size: plate_cutout
+    oomp_type: part
+    overwrite: true
+    pos:
+    - 225.0
+    - 0
+    - 0
+    radius: 72.5
+    radius_cutout: 72.5
+    save_type: none
+    shape: oobb_hole
+    thickness: 9
+    type: n
+    width: 42
+  components_string:
+  - oobb_plate_shape_positive_type_9_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_42_width_11_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_145_diameter_cutout_4_multiple_width_buffer_extra_72.5_radius_cutout_145_diameter_cutout_4_multiple_14_clearance_height_29_clearance_width_width_buffer
+  - oobb_holes_shape_p_type_9_depth_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_42_width_11_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_145_diameter_cutout_4_multiple_width_buffer_extra_72.5_radius_cutout_145_diameter_cutout_4_multiple_14_clearance_height_29_clearance_width_width_buffer_true_both_holes_'corner'_'top'_'bottom'_holes
+  - oobb_hole_shape_n_type_9_depth_-225.0_0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_42_width_11_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_145_diameter_cutout_4_multiple_width_buffer_extra_72.5_radius_cutout_145_diameter_cutout_4_multiple_14_clearance_height_29_clearance_width_width_buffer_72.5_radius
+  - oobb_hole_shape_n_type_9_depth_-75.0_0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_42_width_11_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_145_diameter_cutout_4_multiple_width_buffer_extra_72.5_radius_cutout_145_diameter_cutout_4_multiple_14_clearance_height_29_clearance_width_width_buffer_72.5_radius
+  - oobb_hole_shape_n_type_9_depth_75.0_0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_42_width_11_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_145_diameter_cutout_4_multiple_width_buffer_extra_72.5_radius_cutout_145_diameter_cutout_4_multiple_14_clearance_height_29_clearance_width_width_buffer_72.5_radius
+  - oobb_hole_shape_n_type_9_depth_225.0_0_0_pos_none_save_type_true_navigation_true_overwrite_'3dpr'_modes_oobb_oomp_mode_false_oomp_run_42_width_11_height_9_thickness_oobb_oomp_classification_part_oomp_type_plate_cutout_oomp_size_145_diameter_cutout_4_multiple_width_buffer_extra_72.5_radius_cutout_145_diameter_cutout_4_multiple_14_clearance_height_29_clearance_width_width_buffer_72.5_radius
+  description: oomlout oobb part plate cutout plate cutout 42x11x9
+  description_extra: 145_diameter_cutout_4_multiple_width_buffer_extra
+  description_main: 42_width_11_height_9_mm_depth
+  extra: 145_diameter_cutout_4_multiple_width_buffer
+  folder: C:\gh\oomlout_oobb_version_4_generated_parts\parts\oobb_part_oomlout_oobb_part_plate_cutout_plate_cutout_42_width_11_height_9_mm_depth_145_diameter_cutout_4_multiple_width_buffer_extra
+  height: 11
+  height_mm: 164
+  id: oobb_part_oomlout_oobb_part_plate_cutout_plate_cutout_42_width_11_height_9_mm_depth_145_diameter_cutout_4_multiple_width_buffer_extra
+  link_main: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/navigation_oomp/oobb/part/oomlout_oobb_part_plate_cutout_plate_cutout/42_width_11_height_9_mm_depth/145_diameter_cutout_4_multiple_width_buffer_extra/part
+  link_redirect: https://github.com/oomlout/oomlout_oobb_version_4_generated_parts/tree/main/parts/oobb_oomlout_oobb_part_plate_cutout_plate_cutout_42_11_09_ex_145_diameter_cutout_4_multiple_width_buffer
+  manufacturer: ''
+  name: Oobb Part Oomlout Oobb Part Plate Cutout Plate Cutout 42 Width 11 Height 9
+    mm Depth 145 Diameter Cutout 4 Multiple Width Buffer Extra
+  name_short: Oomlout Plate Cutout Plate Cutout
+  part_number: ''
+  short_name: ''
+  size: oomlout_oobb_part_plate_cutout_plate_cutout
+  thickness: 9
+  thickness_mm: 9
+  type: part
+  width: 42
+  width_mm: 629
+type: part
